@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <children>
+      <MediaView fx:id="mediaView" fitHeight="400.0" fitWidth="600.0" layoutX="92.0" layoutY="40.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="354.0" layoutY="48.0" prefHeight="312.0" prefWidth="205.0" style="-fx-background-radius: 40px; -fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="82.0" fitWidth="80.0" layoutX="59.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@foto.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="64.0" layoutY="92.0" text="Sign In" textFill="#2b12e8">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <JFXTextField focusColor="#e11010" labelFloat="true" layoutY="138.0" prefHeight="21.0" prefWidth="200.0" promptText="Username">
+               <padding>
+                  <Insets left="15.0" right="15.0" />
+               </padding>
+            </JFXTextField>
+            <JFXPasswordField focusColor="#eb170f" labelFloat="true" layoutX="15.0" layoutY="186.0" promptText="Password" />
+            <JFXButton layoutX="28.0" layoutY="241.0" prefHeight="31.0" prefWidth="150.0" styleClass="boton" stylesheets="@../../../../../git/LoginFX/src/application/estilos.css" text="Get Started" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
