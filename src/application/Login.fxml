@@ -14,7 +14,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
    <children>
-      <MediaView fx:id="mediaView" fitHeight="400.0" fitWidth="600.0" layoutX="92.0" layoutY="40.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <MediaView fx:id="mediaView" fitHeight="500.0" fitWidth="600.0" layoutX="92.0" layoutY="40.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
       <Pane layoutX="354.0" layoutY="48.0" prefHeight="312.0" prefWidth="205.0" style="-fx-background-radius: 40px; -fx-background-color: white;">
          <children>
             <ImageView fitHeight="82.0" fitWidth="80.0" layoutX="59.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
